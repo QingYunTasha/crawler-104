@@ -2,7 +2,7 @@
 import crawler, retrieve, secRetrieve, insertJob
 import os, shutil
 
-data_path = r"C:\Users\QingYun\Desktop\rivendinner\Github\Crawler\104_crawler\data"
+data_path = "path"
 
 def main(data_path: str):
     os.chdir(data_path)
